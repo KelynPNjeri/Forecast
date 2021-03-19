@@ -1,6 +1,6 @@
 class Api {
     static appkey = '4e786e09c343b6446095de0452f95f63';
-  
+
     static getWeather(location, unit = 'imperial') {
       return fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${this.appkey}&units=${unit}`,
@@ -16,6 +16,6 @@ class Api {
           icon: `https://openweathermap.org/img/wn/${res.weather[0].icon}@2x.png`,
         }));
     }
-  }
-  
-  export default Api;
+}
+
+export default Api;
