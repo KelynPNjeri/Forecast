@@ -15,7 +15,7 @@
 - Webpack
 
 ## Live Demo
-[Live Demo](https://eager-minsky-b03276.netlify.app/)
+[Live Demo](https://fervent-poitras-3af81c.netlify.app/)
 
 
 ### Getting Started
